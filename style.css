@@ -1,0 +1,20 @@
+#centered {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+#subtle {
+ color: #888888;
+
+}
+
+#black{
+
+	a:link {color: #000000}
+	a:visited {color: #006600}
+	a:hover {color: #FFCC00}
+	a:active {color: #FF00CC}
+
+}
