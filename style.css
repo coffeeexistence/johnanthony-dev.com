@@ -1,3 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+
+*{
+	font-family: 'Merriweather', serif;
+}
+
+#quote{
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center
+}
+
 #centered {
   position: fixed;
   top: 40%;
