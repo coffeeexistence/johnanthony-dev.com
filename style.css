@@ -42,11 +42,7 @@
 
 
 
-@media only screen and (max-width: 767px) {
-	.main-col{
-		padding-bottom: 20px;
-	}
-}
+
 
 .project-content{
 	margin:0px auto;
@@ -141,4 +137,15 @@ max-width: 100%;
 
 .unsupported {
 background: #fddfde;
+}
+
+@media only screen and (max-width: 767px) {
+	.main-col{
+		padding-bottom: 20px;
+	}
+	.row a {
+		border-bottom-width: 1px;
+    	border-bottom-style: solid;
+    	border-bottom-color: rgb(245, 245, 245);
+	}
 }
