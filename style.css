@@ -4,6 +4,8 @@
 	font-family: 'Merriweather', serif;
 }
 
+
+
 #quote{
 	margin-left: 10%;
 	margin-right: 10%;
@@ -22,6 +24,11 @@
 
 }
 
+.subtle {
+ color: #888888;
+
+}
+
 #black{
 
 	a:link {color: #000000}
@@ -29,4 +36,99 @@
 	a:hover {color: #FFCC00}
 	a:active {color: #FF00CC}
 
+}
+
+.project-content{
+	margin:0px auto;
+	clear: both;
+	max-width: 90%;
+	margin-top: 3%;
+}
+
+.project-content h4, h3{
+	display: inline;
+}
+
+.project-content h2{
+	display: inline;
+}
+
+.project-content > div{
+	margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*
+
+.project-content *{
+	margin-left: 10px;
+    margin-right: 10px;
+}
+*/
+.project-content .center {
+	margin: 0px auto;
+	display: block;
+}
+
+.sym-fade {
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efefef+52,f2f2f2+53,efefef+53,f2f2f2+53,efefef+53&0+0,1+52,1+52,1+52,0.8+52,0+100 */
+background: -moz-linear-gradient(left, rgba(239,239,239,0) 0%, rgba(239,239,239,1) 52%, rgba(239,239,239,0.98) 53%, rgba(239,239,239,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(239,239,239,0) 0%,rgba(239,239,239,1) 52%,rgba(239,239,239,0.98) 53%,rgba(239,239,239,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(239,239,239,0) 0%,rgba(239,239,239,1) 52%,rgba(239,239,239,0.98) 53%,rgba(239,239,239,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00efefef', endColorstr='#00efefef',GradientType=1 ); /* IE6-9 */
+
+}
+
+
+.shiny {
+
+background: rgba(245,245,245,1);
+background: -moz-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(252,252,252,1) 23%, rgba(255,255,255,1) 92%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,245,245,1)), color-stop(23%, rgba(252,252,252,1)), color-stop(92%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(252,252,252,1) 23%, rgba(255,255,255,1) 92%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(252,252,252,1) 23%, rgba(255,255,255,1) 92%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(252,252,252,1) 23%, rgba(255,255,255,1) 92%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(245,245,245,1) 0%, rgba(252,252,252,1) 23%, rgba(255,255,255,1) 92%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#ffffff', GradientType=0 );
+}
+
+.purple {
+	color: #0A1536;
+}
+
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+/*////////VIDEO////////*/
+
+video {
+max-width: 100%;
+height: auto;
+}
+
+iframe,
+embed,
+object {
+max-width: 100%;
+}
+
+
+
+.yt-vid {
+	margin: 10px 10px 10px 0;
+	margin-bottom: 20px;
+	max-width: 80%;
+	max-height: 80%;
+
+}
+
+.unsupported {
+background: #fddfde;
 }

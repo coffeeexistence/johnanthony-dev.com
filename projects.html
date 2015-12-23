@@ -6,7 +6,8 @@
 	  <head>
 	    <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="viewport" content="width=device-width,initial-scale=1">
+
 	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	    <title>John Anthony</title>
 	    <!-- Latest compiled and minified CSS -->
@@ -30,40 +31,79 @@
 	  </head>
 
 	  <body>
-	  	<div class="container">
-			<div>
-				<br><br><br>
+	  	<header class="shiny">
 
-		    	<a href="index.html" style="color:#000000"><h1 class="text-center">John Anthony</a> - Projects</h1>
+				<div>
+					<br><br><br>
 
-		    	<h4 id="subtle" class="text-center">Python | Ruby/Rails | C | JavaScript | HTML/CSS | Linux</h4>
-		    </div>
-		    <br><br>
-		</div>    
-		<div class="container">    
-		    <ul class="nav nav-tabs" role="tablist">
-			    <li role="presentation" class="active"><a href="#sp" aria-controls="sp" role="tab" data-toggle="tab">Secretary Problem</a></li>
-			    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-			    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-			    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-			</ul>
 
-			  <!-- Tab panes -->
-			<div class="tab-content">
-			    <div role="tabpanel" class="tab-pane active" id="sp">
-			    	<iframe src="http://johnanthony-dev.com/blog/index.php/2015/11/25/optimal-stopping-the-secretary-problem/" frameborder="0" width="100%" height="900"></iframe>
+			    	<a href="index.html" style="color:#000000"><h1 class="text-center">John Anthony</a> - Projects</h1>
+
+			    	<h4 id="subtle" class="text-center">Python | Ruby/Rails | C | JavaScript | HTML/CSS | Linux</h4>
 			    </div>
-			    <div role="tabpanel" class="tab-pane" id="profile">...</div>
-			    <div role="tabpanel" class="tab-pane" id="messages">...</div>
-			    <div role="tabpanel" class="tab-pane" id="settings">...</div>
-			</div>
-			<br><br><br>
-			<hr>
-			<p class="text-center"><img src="serp.png" style="width: 50%; height: 50%;"></p>
+			    <br><br>
+		</header>	
+			<div class="container">
+				<div class="project-content clearfix ">
+					<div>
+
+						<hr>
+						<h2>Of Greater Aspirations - Isola</h2>
+						<hr>
+
+						<p>Description down here You swim for new horizons until you have courage to lose sight of the shore.You cannot swim for new horizons until you have courage to lose sight of the shore.You cannot swim for new horizons until you have courage to lose sight of the shore.</p>
+						<section class="sym-fade">
+						<div class="yt-vid center">
+		        			<iframe width="560" height="315" src="https://www.youtube.com/embed/p9XKen0dIsA" frameborder="0" allowfullscreen></iframe>
+		        		</div>	
+		        		</section>
+		        		<br>
+						<a href="#">Optional Link</a>
+					</div>
+				</div>
+
+				<div class="project-content clearfix">
+					<div>
+						<hr>
+						<h2>The Secretary Problem</h2><h3 class="subtle"> | Fun with Statistics and Python</h3>
+						<hr>
+						<p>Imagine the following scenario, You are looking to hire a secretary and have 21 individuals that have applied, after interviewing each individual and assessing their aptitude, you may either hire or reject them, permanently. In this scenario, what method will give the employer the best statistical chance of hiring the optimal candidate? This is The Secretary Problem, and this is what <a href="http://johnanthony-dev.com/blog/index.php/2015/11/25/optimal-stopping-the-secretary-problem/">my blog post</a> dives into.
+						</p>
+					</div>
+				</div>
+
+				<div class="project-content clearfix">
+					<div>
+						<hr>
+						<h2>Title Goes Here</h2>
+						<hr>
+						<p>Description down here You swim for new horizons until you have courage to lose sight of the shore.You cannot swim for new horizons until you have courage to lose sight of the shore.You cannot swim for new horizons until you have courage to lose sight of the shore.</p>
+						<a href="#">Optional Link</a>
+					</div>
+				</div>
+
+				<br><br>
+				<hr>
+				<p class="text-center"><img src="serp.png" style="max-width: 600px; width: 50%; height: 50%;"></p>
+				<div id="quote">
+					<p class="text-center" id="">“You cannot swim for new horizons until you have courage to lose sight of the shore.” 
+					― William Faulkner</p>
+				</div>
+			</div>	
 		    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		    <!-- Include all compiled plugins (below), or include individual files as needed -->
+		    <script src="js/jquery.min.js"></script>
 		    <script src="js/bootstrap.min.js"></script>
+
+			<script src="js/fitjs/jquery.fitvids.js"></script>
+			<script>
+			  $(document).ready(function(){
+			    // Target your .container, .wrapper, .post, etc.
+			    $(".yt-vid").fitVids();
+			  });
+			</script>
+			
 	    </div>
 
 	  </body>
