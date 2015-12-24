@@ -4,6 +4,9 @@
 	font-family: 'Merriweather', serif;
 }
 
+body {
+	min-width: 305px;
+}
 
 
 #quote{
@@ -139,6 +142,8 @@ max-width: 100%;
 background: #fddfde;
 }
 
+/*
+
 @media only screen and (max-width: 767px) {
 	.main-col{
 		padding-bottom: 20px;
@@ -148,4 +153,13 @@ background: #fddfde;
     	border-bottom-style: solid;
     	border-bottom-color: rgb(245, 245, 245);
 	}
+}
+
+*/
+@media only screen and (max-width: 490px) {
+	.main-col a h3 {font-size: 150%;}
+}
+
+@media only screen and (max-width: 450px) {
+	.main-col a h3 {font-size: 110%;}
 }
